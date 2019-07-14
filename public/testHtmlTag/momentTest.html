@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../src/util/moment.js"></script>
+    <style>
+        a.active {
+            color: red
+        }
+        a .active {
+            color: green
+        }
+    </style>
+</head>
+<body>
+    <a class="active">1</a>
+    <a><span class="active">2</span></a>
+    <div class="active"></div>
+    <script>
+      console.log(moment().seconds())
+      const a = moment(1000)
+      const continueSecond = 165749
+      const result = moment.duration(continueSecond).humanize()
+      console.log(result)
+      // console.log(moment.duration(1000000).humanize());
+      // console.log(moment.duration(165749).humanize())
+    </script>
+</body>
+</html>

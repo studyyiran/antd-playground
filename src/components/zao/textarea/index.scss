@@ -1,0 +1,23 @@
+.zao-components-textarea {
+  width: 100%;
+  height: 100%;
+  background:rgba(255,255,255,1);
+  border-radius:0.11rem;
+  border:1px solid rgba(238,238,238,1);
+
+  font-size:0.37rem;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+
+  word-wrap: break-word;
+  word-break: break-all;
+
+  // ios阴影
+  -webkit-appearance: none;
+  overflow-y: hidden;
+
+
+  padding: 0.27rem;
+  box-sizing: border-box;
+}
+
