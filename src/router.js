@@ -1,4 +1,5 @@
 import React from "react";
+import './index.scss'
 // import Custom from "./pages/form/custom";
 // import Normal from "./pages/form/normal/index";
 // import ModalDemo from "./pages/modal";
